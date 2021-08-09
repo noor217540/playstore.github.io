@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+
+.top_chart {
+    width: 80%;
+    display: flex;
+    margin: 25px auto 20px auto;
+}
+
+.top_chart .number-down {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.top_chart .apk-details {
+    margin: 3px 0 auto 15px;
+}
+
+.top_chart .apk-name {
+    text-align: start;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top_chart .apk-categories {
+    text-align: start;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top_chart .my-span {
+    text-align: start;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}

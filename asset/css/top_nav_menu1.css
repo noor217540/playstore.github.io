@@ -1,0 +1,45 @@
+.navigation_bar {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 12px;
+}
+
+.navigation_bar::-webkit-scrollbar {
+    display: none;
+}
+
+.navigation_bar .nav_btn {
+    width: 600px;
+    display: flex;
+    height: 35px;
+}
+
+.navigation_bar .nav_btn .active1 {
+    color: green;
+    border-bottom: 2px solid green;
+    border-bottom-width: 2px;
+}
+
+.navigation_bar .nav_btn .permanent {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.navigation_bar .nav_btn .btn {
+    padding: 2px 12px;
+    /* width: 180px; */
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+.navigation_bar .nav_btn .btn:hover {
+    background-color: white;
+    /* color: green;
+    border-bottom: 2px solid green; */
+    /* font-size: 17px; */
+}

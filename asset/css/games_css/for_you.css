@@ -1,0 +1,74 @@
+.all-conntent-show .recommended {
+    color: black;
+}
+
+.all-conntent-show .recommended .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.all-conntent-show .recommended .heading a {
+    color: black;
+}
+
+.all-conntent-show .recommended .heading span {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.all-conntent-show .recommended .heading .fas {
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.apk-data-show {
+    margin-top: 7px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+
+/* .for_you_card:hover {
+    background-color: rgb(245, 245, 245);
+} */
+
+.apk-data-show::-webkit-scrollbar {
+    display: none;
+}
+
+.apk-data-show a {
+    text-decoration: none;
+    font-style: none;
+}
+
+.apk-data-show .for_you_card {
+    margin-top: 3px;
+    margin-left: 1.2rem;
+    margin-right: -0.5rem;
+}
+
+.apk-data-show .apk-logo {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.apk-data-show .apk-logo h6 {
+    text-align: start;
+    margin-left: 1.5rem;
+    margin-top: 2px;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.apk-data-show .apk-logo .my-span {
+    margin-left: 1.5rem;
+    margin-top: 0px;
+    font-size: 0.7rem;
+    text-align: start;
+}

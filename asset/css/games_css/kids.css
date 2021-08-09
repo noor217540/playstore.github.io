@@ -1,0 +1,38 @@
+.kids_hedding {
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.kids_hedding {
+    margin-left: 20px;
+}
+
+.kids_hedding_1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.kids_hedding .fa-arrow-right {
+    margin-top: 6px;
+    float: right;
+    margin-right: 20px;
+    color: black;
+}
+
+.kids_row_1 {
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.kids_row_1::-webkit-scrollbar {
+    display: none;
+}
+
+.kids_row_1 .kids_card {
+    margin-left: 9px;
+    margin-right: 9px;
+}
